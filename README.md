@@ -1,3 +1,4 @@
+
 ---
 
 1. Algoritme yang Digunakan
@@ -16,6 +17,7 @@ Sistem Anda mengimplementasikan dua jenis *substitution cipher* (sandi substitus
 
 
 ---
+
 
 2. Fitur Utama Sistem
 

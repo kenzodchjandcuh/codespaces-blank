@@ -81,6 +81,17 @@
             display: inline-block;
             margin-top: 10px;
         }
+        .footer {
+           position: fixed;
+           left: 0;
+           bottom: 0;
+           width: 100%;
+           background-color: #333; /* Warna latar gelap */
+           color: white; /* Warna teks putih */
+           text-align: center;
+           padding: 15px 0;
+           font-family: Arial, sans-serif;
+        }
     </style>
 </head>
 <body>
@@ -102,7 +113,9 @@
         <h3>Hasil:</h3>
         <p id="result"></p>
     </div>
-
+        <div class="footer">
+          <p>&copy; 2026 <strong>Nama Website Anda</strong>. Semua Hak Dilindungi.</p>
+        </div>
     <script>
         function updateKeyInput() {
             let cipherType = document.getElementById("cipherType").value;
